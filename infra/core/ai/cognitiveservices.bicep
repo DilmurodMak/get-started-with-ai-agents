@@ -52,12 +52,9 @@ resource aiServiceConnection 'Microsoft.CognitiveServices/accounts/connections@2
   parent: account
   properties: {
     category: 'AzureOpenAI'
-    authType: 'ApiKey'
+    authType: 'AAD'
     isSharedToAll: true
     target: account.properties.endpoints['OpenAI Language Model Instance API']
-    credentials: {
-      key: account.listKeys().key1
-    }
     metadata: {
       ApiType: 'azure'
       ResourceId: account.id
