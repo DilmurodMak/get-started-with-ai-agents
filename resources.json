@@ -1,0 +1,316 @@
+[
+  {
+    "changedTime": "2026-01-24T09:05:36.037134+00:00",
+    "createdTime": "2026-01-22T16:06:24.136431+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/Microsoft.OperationalInsights/workspaces/log-ygwevpoox6mrm",
+    "identity": null,
+    "kind": null,
+    "location": "eastus",
+    "managedBy": null,
+    "name": "log-ygwevpoox6mrm",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": null,
+    "tags": {
+      "azd-env-name": "mak-fdy-demo"
+    },
+    "type": "Microsoft.OperationalInsights/workspaces"
+  },
+  {
+    "changedTime": "2026-01-22T16:16:43.690582+00:00",
+    "createdTime": "2026-01-22T16:06:24.230588+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/Microsoft.Storage/storageAccounts/stygwevpoox6mrm",
+    "identity": null,
+    "kind": "StorageV2",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "stygwevpoox6mrm",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": {
+      "capacity": null,
+      "family": null,
+      "model": null,
+      "name": "Standard_LRS",
+      "size": null,
+      "tier": "Standard"
+    },
+    "tags": {
+      "azd-env-name": "mak-fdy-demo"
+    },
+    "type": "Microsoft.Storage/storageAccounts"
+  },
+  {
+    "changedTime": "2026-01-22T16:16:46.309195+00:00",
+    "createdTime": "2026-01-22T16:06:46.144864+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/Microsoft.Insights/components/appi-ygwevpoox6mrm",
+    "identity": null,
+    "kind": "web",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "appi-ygwevpoox6mrm",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": null,
+    "tags": {
+      "azd-env-name": "mak-fdy-demo"
+    },
+    "type": "Microsoft.Insights/components"
+  },
+  {
+    "changedTime": "2026-01-22T16:17:11.909485+00:00",
+    "createdTime": "2026-01-22T16:06:52.004428+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/Microsoft.CognitiveServices/accounts/aoai-ygwevpoox6mrm",
+    "identity": {
+      "principalId": "e2488c9f-50e8-4453-ac49-b9e8af027684",
+      "tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3",
+      "type": "SystemAssigned",
+      "userAssignedIdentities": null
+    },
+    "kind": "AIServices",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "aoai-ygwevpoox6mrm",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": {
+      "capacity": null,
+      "family": null,
+      "model": null,
+      "name": "S0",
+      "size": null,
+      "tier": null
+    },
+    "systemData": {
+      "createdAt": "2026-01-22T16:06:52.0194067Z",
+      "createdBy": "dilmurodm@microsoft.com",
+      "createdByType": "User",
+      "lastModifiedAt": "2026-01-22T16:06:52.0194067Z",
+      "lastModifiedBy": "dilmurodm@microsoft.com",
+      "lastModifiedByType": "User"
+    },
+    "tags": {
+      "azd-env-name": "mak-fdy-demo"
+    },
+    "type": "Microsoft.CognitiveServices/accounts"
+  },
+  {
+    "changedTime": "2026-01-22T16:17:12.579504+00:00",
+    "createdTime": "2026-01-22T16:07:12.151142+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/Microsoft.CognitiveServices/accounts/aoai-ygwevpoox6mrm/projects/proj-ygwevpoox6mrm",
+    "identity": {
+      "principalId": "0a1e5ea3-a299-4fe1-9c36-08b4b5c7f29c",
+      "tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3",
+      "type": "SystemAssigned",
+      "userAssignedIdentities": null
+    },
+    "kind": "AIServices",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "aoai-ygwevpoox6mrm/proj-ygwevpoox6mrm",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": null,
+    "systemData": {
+      "createdAt": "2026-01-22T16:07:12.1619611Z",
+      "createdBy": "dilmurodm@microsoft.com",
+      "createdByType": "User",
+      "lastModifiedAt": "2026-01-22T16:07:12.1619611Z",
+      "lastModifiedBy": "dilmurodm@microsoft.com",
+      "lastModifiedByType": "User"
+    },
+    "tags": {
+      "azd-env-name": "mak-fdy-demo"
+    },
+    "type": "Microsoft.CognitiveServices/accounts/projects"
+  },
+  {
+    "changedTime": "2026-01-24T09:05:51.385421+00:00",
+    "createdTime": "2026-01-22T16:07:27.083825+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/Microsoft.ContainerRegistry/registries/crygwevpoox6mrm",
+    "identity": null,
+    "kind": null,
+    "location": "eastus",
+    "managedBy": null,
+    "name": "crygwevpoox6mrm",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": {
+      "capacity": null,
+      "family": null,
+      "model": null,
+      "name": "Basic",
+      "size": null,
+      "tier": "Basic"
+    },
+    "systemData": {
+      "createdAt": "2026-01-22T16:07:27.1048812Z",
+      "createdBy": "dilmurodm@microsoft.com",
+      "createdByType": "User",
+      "lastModifiedAt": "2026-01-24T08:55:36.4032587Z",
+      "lastModifiedBy": "dilmurodm@microsoft.com",
+      "lastModifiedByType": "User"
+    },
+    "tags": {
+      "azd-env-name": "mak-fdy-demo"
+    },
+    "type": "Microsoft.ContainerRegistry/registries"
+  },
+  {
+    "changedTime": "2026-01-22T16:18:18.916984+00:00",
+    "createdTime": "2026-01-22T16:07:27.466053+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/Microsoft.App/managedEnvironments/containerapps-env-ygwevpoox6mrm",
+    "identity": null,
+    "kind": null,
+    "location": "eastus",
+    "managedBy": null,
+    "name": "containerapps-env-ygwevpoox6mrm",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": null,
+    "systemData": {
+      "createdAt": "2026-01-22T16:07:27.478111Z",
+      "createdBy": "dilmurodm@microsoft.com",
+      "createdByType": "User",
+      "lastModifiedAt": "2026-01-22T16:07:27.478111Z",
+      "lastModifiedBy": "dilmurodm@microsoft.com",
+      "lastModifiedByType": "User"
+    },
+    "tags": {
+      "azd-env-name": "mak-fdy-demo"
+    },
+    "type": "Microsoft.App/managedEnvironments"
+  },
+  {
+    "changedTime": "2026-01-22T16:18:20.697336+00:00",
+    "createdTime": "2026-01-22T16:08:20.374671+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-api-ygwevpoox6mrm",
+    "identity": null,
+    "kind": null,
+    "location": "eastus",
+    "managedBy": null,
+    "name": "id-api-ygwevpoox6mrm",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": null,
+    "tags": {},
+    "type": "Microsoft.ManagedIdentity/userAssignedIdentities"
+  },
+  {
+    "changedTime": "2026-01-24T09:33:28.674042+00:00",
+    "createdTime": "2026-01-22T16:08:23.159686+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/Microsoft.App/containerApps/ca-api-ygwevpoox6mrm",
+    "identity": {
+      "principalId": null,
+      "tenantId": null,
+      "type": "UserAssigned",
+      "userAssignedIdentities": {
+        "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourcegroups/rg-mak-fdy-demo/providers/Microsoft.ManagedIdentity/userAssignedIdentities/id-api-ygwevpoox6mrm": {
+          "clientId": "6980fa12-238d-41d3-8c81-609158020382",
+          "principalId": "5073f763-115d-458d-82f6-973b80f3fa81"
+        }
+      }
+    },
+    "kind": null,
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ca-api-ygwevpoox6mrm",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": null,
+    "systemData": {
+      "createdAt": "2026-01-22T16:08:23.1843738Z",
+      "createdBy": "dilmurodm@microsoft.com",
+      "createdByType": "User",
+      "lastModifiedAt": "2026-01-24T09:23:12.3525578Z",
+      "lastModifiedBy": "dilmurodm@microsoft.com",
+      "lastModifiedByType": "User"
+    },
+    "tags": {
+      "azd-env-name": "mak-fdy-demo",
+      "azd-service-name": "api_and_frontend"
+    },
+    "type": "Microsoft.App/containerApps"
+  },
+  {
+    "changedTime": "2026-01-22T16:26:47.023893+00:00",
+    "createdTime": "2026-01-22T16:16:46.822931+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/microsoft.insights/actiongroups/Application Insights Smart Detection",
+    "identity": null,
+    "kind": null,
+    "location": "global",
+    "managedBy": null,
+    "name": "Application Insights Smart Detection",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": null,
+    "tags": null,
+    "type": "microsoft.insights/actiongroups"
+  },
+  {
+    "changedTime": "2026-01-22T16:26:48.123605+00:00",
+    "createdTime": "2026-01-22T16:16:47.824977+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/microsoft.alertsmanagement/smartDetectorAlertRules/Failure Anomalies - appi-ygwevpoox6mrm",
+    "identity": null,
+    "kind": null,
+    "location": "global",
+    "managedBy": null,
+    "name": "Failure Anomalies - appi-ygwevpoox6mrm",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": null,
+    "tags": {},
+    "type": "microsoft.alertsmanagement/smartDetectorAlertRules"
+  },
+  {
+    "changedTime": "2026-01-22T20:14:26.424605+00:00",
+    "createdTime": "2026-01-22T20:04:25.962980+00:00",
+    "extendedLocation": null,
+    "id": "/subscriptions/5b5de211-a2cd-45f3-8962-897fb0aff378/resourceGroups/rg-mak-fdy-demo/providers/Microsoft.EventGrid/systemTopics/stygwevpoox6mrm-8f890301-fafd-447f-8964-e359205689c9",
+    "identity": null,
+    "kind": null,
+    "location": "eastus",
+    "managedBy": null,
+    "name": "stygwevpoox6mrm-8f890301-fafd-447f-8964-e359205689c9",
+    "plan": null,
+    "properties": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "rg-mak-fdy-demo",
+    "sku": null,
+    "tags": null,
+    "type": "Microsoft.EventGrid/systemTopics"
+  }
+]
