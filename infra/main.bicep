@@ -13,6 +13,7 @@ param environmentName string
 @allowed([
   'eastus'
   'eastus2'
+  'northcentralus'
   'swedencentral'
   'westus'
   'westus3'
