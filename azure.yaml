@@ -34,11 +34,30 @@ hooks:
 services:
   api_and_frontend:
     project: ./src
-    language: py
-    host: containerapp
+    language: py # for hosted agents: docker
+    host: containerapp # for hosted agents: azure.ai.agent
     docker:
       image: api_and_frontend
       remoteBuild: true
+
+    # Example for hosted agents
+    # config:
+    #   container:
+    #     resources:
+    #       cpu: "1"
+    #       memory: 2Gi
+    #     scale:
+    #       maxReplicas: 3
+    #       minReplicas: 1
+    #   deployments:
+    #   - model:
+    #       format: OpenAI
+    #       name: gpt-5-mini
+    #       version: "2024-08-06"
+    #     name: gpt-5-mini
+    #     sku:
+    #       capacity: 10
+    #       name: GlobalStandard
 pipeline:
   variables:
     - AZURE_RESOURCE_GROUP
