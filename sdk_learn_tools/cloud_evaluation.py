@@ -10,8 +10,6 @@ from openai.types.eval_create_params import DataSourceConfigCustom
 from openai.types.evals.create_eval_jsonl_run_data_source_param import CreateEvalJSONLRunDataSourceParam, SourceFileID
 
 # --- 1. Environment Setup ---
-# Load environment variables from the attached .env file
-# We look for .azure/mak-foundry-demo/.env relative to the workspace root
 workspace_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 env_path = os.path.join(workspace_root, ".azure", "mak-foundry-demo", ".env")
 
@@ -24,12 +22,10 @@ else:
 
 # --- 2. Configuration & Derived Variables ---
 
-# Project Endpoint
 project_endpoint = os.environ.get("AZURE_EXISTING_AIPROJECT_ENDPOINT")
 if not project_endpoint:
     raise ValueError("AZURE_EXISTING_AIPROJECT_ENDPOINT is not set.")
 
-# Model Deployment Name (e.g., gpt-4)
 model_deployment_name = os.environ.get("AZURE_AI_AGENT_DEPLOYMENT_NAME")
 if not model_deployment_name:
     raise ValueError("AZURE_AI_AGENT_DEPLOYMENT_NAME is not set.")
