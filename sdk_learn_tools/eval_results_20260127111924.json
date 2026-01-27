@@ -1,0 +1,1562 @@
+[
+    {
+        "id": "1",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "What features come with the SmartView Glasses?",
+            "ground_truth": "They include an Augmented Reality interface, Voice-controlled AI assistant, HD video recording with 3D audio, and UV protection."
+        },
+        "datasource_item_id": 0,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1607,
+                        "completion_tokens": 454,
+                        "total_tokens": 2061
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What features come with the SmartView Glasses?\", \"response\": \"They include an Augmented Reality interface, Voice-controlled AI assistant, HD video recording with 3D audio, and UV protection.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The reply directly lists several core features (AR interface, voice AI, HD video with 3D audio, UV protection), directly answering the question. It\u2019s clear and sufficient, though it lacks extra detail or contextual explanation.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The reply directly lists several core features (AR interface, voice AI, HD video with 3D audio, UV protection), directly answering the question. It\u2019s clear and sufficient, though it lacks extra detail or contextual explanation.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1285,
+                        "completion_tokens": 454,
+                        "total_tokens": 1739
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What features come with the SmartView Glasses?\", \"response\": \"They include an Augmented Reality interface, Voice-controlled AI assistant, HD video recording with 3D audio, and UV protection.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) The query asks for features of SmartView Glasses. 2) The response provides a direct list of features (AR interface, voice AI, HD video with 3D audio, UV protection). 3) Items are presented in a clear, logical order and directly relevant. 4) The answer is concise and easy to follow but not highly detailed or elaborated.</S0>\n<S1>Direct, well-organized list that addresses the question clearly; coherent but not exceptionally detailed or nuanced.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "Direct, well-organized list that addresses the question clearly; coherent but not exceptionally detailed or nuanced.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"What features come with the SmartView Glasses?\", \"response\": \"They include an Augmented Reality interface, Voice-controlled AI assistant, HD video recording with 3D audio, and UV protection.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) The query asks for features of SmartView Glasses. 2) The response provides a direct list of features (AR interface, voice AI, HD video with 3D audio, UV protection). 3) Items are presented in a clear, logical order and directly relevant. 4) The answer is concise and easy to follow but not highly detailed or elaborated.</S0>\n<S1>Direct, well-organized list that addresses the question clearly; coherent but not exceptionally detailed or nuanced.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 454,
+                "prompt_tokens": 1285,
+                "total_tokens": 1739
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "2",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "How long is the battery life of the Self-Warming Blanket?",
+            "ground_truth": "It has a battery life of up to 12 hours."
+        },
+        "datasource_item_id": 1,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1596,
+                        "completion_tokens": 317,
+                        "total_tokens": 1913
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"How long is the battery life of the Self-Warming Blanket?\", \"response\": \"It has a battery life of up to 12 hours.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"Directly answers the question with a clear specific duration (up to 12 hours). It fully addresses the user's query; while concise, it provides the essential battery-life information expected.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "Directly answers the question with a clear specific duration (up to 12 hours). It fully addresses the user's query; while concise, it provides the essential battery-life information expected.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 5.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1274,
+                        "completion_tokens": 404,
+                        "total_tokens": 1678
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"How long is the battery life of the Self-Warming Blanket?\", \"response\": \"It has a battery life of up to 12 hours.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) Identify the query: asks for battery life of the Self-Warming Blanket. 2) Examine the response: \"It has a battery life of up to 12 hours.\" 3) Assess relevance and clarity: the response directly and unambiguously answers the question. 4) Compare to coherence definitions: the answer is logically organized, clear, and easy to follow. 5) Conclude rating: highest coherence applies.</S0>\n<S1>The response directly and clearly answers the question in a single, well-structured sentence, so it is highly coherent.</S1>\n<S2>5</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The response directly and clearly answers the question in a single, well-structured sentence, so it is highly coherent.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"How long is the battery life of the Self-Warming Blanket?\", \"response\": \"It has a battery life of up to 12 hours.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) Identify the query: asks for battery life of the Self-Warming Blanket. 2) Examine the response: \"It has a battery life of up to 12 hours.\" 3) Assess relevance and clarity: the response directly and unambiguously answers the question. 4) Compare to coherence definitions: the answer is logically organized, clear, and easy to follow. 5) Conclude rating: highest coherence applies.</S0>\n<S1>The response directly and clearly answers the question in a single, well-structured sentence, so it is highly coherent.</S1>\n<S2>5</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 404,
+                "prompt_tokens": 1274,
+                "total_tokens": 1678
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "3",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "Is the Summit Breeze Jacket water-proof?",
+            "ground_truth": "It is water-resistant, keeping you dry in light rain."
+        },
+        "datasource_item_id": 2,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1591,
+                        "completion_tokens": 446,
+                        "total_tokens": 2037
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"Is the Summit Breeze Jacket water-proof?\", \"response\": \"It is water-resistant, keeping you dry in light rain.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"Directly answers the waterproof question by clarifying the jacket is water-resistant, suitable for light rain. It's accurate and relevant but lacks technical details (e.g., ratings or limitations).\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "Directly answers the waterproof question by clarifying the jacket is water-resistant, suitable for light rain. It's accurate and relevant but lacks technical details (e.g., ratings or limitations).",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1269,
+                        "completion_tokens": 389,
+                        "total_tokens": 1658
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"Is the Summit Breeze Jacket water-proof?\", \"response\": \"It is water-resistant, keeping you dry in light rain.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) The query asks whether the jacket is waterproof. 2) The response states \"water-resistant, keeping you dry in light rain,\" which directly answers the question. 3) The answer is clear, logically presented, and easy to follow, though brief. 4) This matches the \"Coherent Response\" criteria.</S0>\n<S1>The response directly and clearly addresses the question with a logical, easy-to-follow statement, but is concise rather than highly elaborate, fitting level 4 coherence.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The response directly and clearly addresses the question with a logical, easy-to-follow statement, but is concise rather than highly elaborate, fitting level 4 coherence.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"Is the Summit Breeze Jacket water-proof?\", \"response\": \"It is water-resistant, keeping you dry in light rain.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) The query asks whether the jacket is waterproof. 2) The response states \"water-resistant, keeping you dry in light rain,\" which directly answers the question. 3) The answer is clear, logically presented, and easy to follow, though brief. 4) This matches the \"Coherent Response\" criteria.</S0>\n<S1>The response directly and clearly addresses the question with a logical, easy-to-follow statement, but is concise rather than highly elaborate, fitting level 4 coherence.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 389,
+                "prompt_tokens": 1269,
+                "total_tokens": 1658
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "4",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "What is John Smith's email address?",
+            "ground_truth": "johnsmith@example.com"
+        },
+        "datasource_item_id": 3,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1584,
+                        "completion_tokens": 382,
+                        "total_tokens": 1966
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What is John Smith's email address?\", \"response\": \"johnsmith@example.com\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The response directly answers the user's question by providing an email address for John Smith. It is concise and on-topic, but lacks verification or additional context about the address's accuracy or source.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The response directly answers the user's question by providing an email address for John Smith. It is concise and on-topic, but lacks verification or additional context about the address's accuracy or source.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 5.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1262,
+                        "completion_tokens": 306,
+                        "total_tokens": 1568
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What is John Smith's email address?\", \"response\": \"johnsmith@example.com\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) The query asks for John Smith's email address. 2) The response provides a single email string. 3) The response directly and unambiguously answers the question with a logically connected piece of information. 4) There is clear, simple presentation with no extraneous or disjointed content.</S0>\n<S1>Direct, clear, and logically organized answer that exactly matches the request.</S1>\n<S2>5</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "Direct, clear, and logically organized answer that exactly matches the request.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"What is John Smith's email address?\", \"response\": \"johnsmith@example.com\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) The query asks for John Smith's email address. 2) The response provides a single email string. 3) The response directly and unambiguously answers the question with a logically connected piece of information. 4) There is clear, simple presentation with no extraneous or disjointed content.</S0>\n<S1>Direct, clear, and logically organized answer that exactly matches the request.</S1>\n<S2>5</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 306,
+                "prompt_tokens": 1262,
+                "total_tokens": 1568
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "5",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "What membership level does Jane Doe have?",
+            "ground_truth": "She has a Gold membership."
+        },
+        "datasource_item_id": 4,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1585,
+                        "completion_tokens": 314,
+                        "total_tokens": 1899
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What membership level does Jane Doe have?\", \"response\": \"She has a Gold membership.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The response directly answers the question by stating Jane Doe's membership level as Gold. It is concise, specific, and fully addresses the user's request without extraneous information.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The response directly answers the question by stating Jane Doe's membership level as Gold. It is concise, specific, and fully addresses the user's request without extraneous information.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1263,
+                        "completion_tokens": 325,
+                        "total_tokens": 1588
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What membership level does Jane Doe have?\", \"response\": \"She has a Gold membership.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) Identify the question: asks Jane Doe's membership level. 2) Read the response: \"She has a Gold membership.\" 3) Check relevance: response directly answers the question. 4) Check logical flow and clarity: single clear sentence, logically connected to the query. 5) Determine rating: it's coherent and effectively addresses the question.</S0>\n<S1>The response directly and clearly answers the query with a logically organized single sentence, matching the \"Coherent Response\" description.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The response directly and clearly answers the query with a logically organized single sentence, matching the \"Coherent Response\" description.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"What membership level does Jane Doe have?\", \"response\": \"She has a Gold membership.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) Identify the question: asks Jane Doe's membership level. 2) Read the response: \"She has a Gold membership.\" 3) Check relevance: response directly answers the question. 4) Check logical flow and clarity: single clear sentence, logically connected to the query. 5) Determine rating: it's coherent and effectively addresses the question.</S0>\n<S1>The response directly and clearly answers the query with a logically organized single sentence, matching the \"Coherent Response\" description.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 325,
+                "prompt_tokens": 1263,
+                "total_tokens": 1588
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "6",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "What did Michael Johnson buy on 2/28/2023?",
+            "ground_truth": "He bought 2 BaseCamp Folding Tables."
+        },
+        "datasource_item_id": 5,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1594,
+                        "completion_tokens": 318,
+                        "total_tokens": 1912
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What did Michael Johnson buy on 2/28/2023?\", \"response\": \"He bought 2 BaseCamp Folding Tables.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The response directly and specifically answers the question by naming the item and quantity Michael Johnson purchased on 2/28/2023. It is complete and sufficient for the user\u2019s query.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The response directly and specifically answers the question by naming the item and quantity Michael Johnson purchased on 2/28/2023. It is complete and sufficient for the user\u2019s query.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1272,
+                        "completion_tokens": 321,
+                        "total_tokens": 1593
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What did Michael Johnson buy on 2/28/2023?\", \"response\": \"He bought 2 BaseCamp Folding Tables.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) The query asks a specific factual question about a purchase on a specific date. 2) The response directly states what was bought and the quantity. 3) The answer is concise, complete, and directly relevant to the question, with a clear logical connection. 4) It lacks additional elaboration but is organized and easy to follow.</S0>\n<S1>The response directly and clearly answers the question with a single, logically presented fact, so it is coherent though brief.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The response directly and clearly answers the question with a single, logically presented fact, so it is coherent though brief.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"What did Michael Johnson buy on 2/28/2023?\", \"response\": \"He bought 2 BaseCamp Folding Tables.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) The query asks a specific factual question about a purchase on a specific date. 2) The response directly states what was bought and the quantity. 3) The answer is concise, complete, and directly relevant to the question, with a clear logical connection. 4) It lacks additional elaboration but is organized and easy to follow.</S0>\n<S1>The response directly and clearly answers the question with a single, logically presented fact, so it is coherent though brief.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 321,
+                "prompt_tokens": 1272,
+                "total_tokens": 1593
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "7",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "When did John Smith purchase the Alpine Explorer Tent?",
+            "ground_truth": "On 2/10/2023."
+        },
+        "datasource_item_id": 6,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1590,
+                        "completion_tokens": 320,
+                        "total_tokens": 1910
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"When did John Smith purchase the Alpine Explorer Tent?\", \"response\": \"On 2/10/2023.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The reply directly answers the question by giving a specific purchase date. It is concise and sufficient for a straightforward factual query, though it doesn't clarify date-format ambiguity (MM/DD vs DD/MM).\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The reply directly answers the question by giving a specific purchase date. It is concise and sufficient for a straightforward factual query, though it doesn't clarify date-format ambiguity (MM/DD vs DD/MM).",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1268,
+                        "completion_tokens": 318,
+                        "total_tokens": 1586
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"When did John Smith purchase the Alpine Explorer Tent?\", \"response\": \"On 2/10/2023.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: \n1. The query asks for a specific date of purchase. \n2. The response provides a single date: \"On 2/10/2023.\" \n3. The answer directly and clearly addresses the question with a logically connected statement. \n4. It is concise but fully coherent for the question asked.</S0>\n<S1>The response is a direct, clear answer to the question and is logically organized, so it meets the criteria for a coherent response.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The response is a direct, clear answer to the question and is logically organized, so it meets the criteria for a coherent response.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"When did John Smith purchase the Alpine Explorer Tent?\", \"response\": \"On 2/10/2023.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: \n1. The query asks for a specific date of purchase. \n2. The response provides a single date: \"On 2/10/2023.\" \n3. The answer directly and clearly addresses the question with a logically connected statement. \n4. It is concise but fully coherent for the question asked.</S0>\n<S1>The response is a direct, clear answer to the question and is logically organized, so it meets the criteria for a coherent response.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 318,
+                "prompt_tokens": 1268,
+                "total_tokens": 1586
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "8",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "What is Sarah Lee's membership status?",
+            "ground_truth": "Platinum"
+        },
+        "datasource_item_id": 7,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1581,
+                        "completion_tokens": 252,
+                        "total_tokens": 1833
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What is Sarah Lee's membership status?\", \"response\": \"Platinum\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The response directly answers the question by stating Sarah Lee's membership status as 'Platinum.' It fully satisfies the user's request but offers no additional context or details beyond the status.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The response directly answers the question by stating Sarah Lee's membership status as 'Platinum.' It fully satisfies the user's request but offers no additional context or details beyond the status.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1259,
+                        "completion_tokens": 246,
+                        "total_tokens": 1505
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What is Sarah Lee's membership status?\", \"response\": \"Platinum\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) The query asks for Sarah Lee's membership status. 2) The response is a single word: \"Platinum.\" 3) That directly and unambiguously answers the question. 4) Although brief, the answer is logically connected and easy to follow, so it is coherent.</S0>\n<S1>The response directly addresses the question in a clear, logically connected way, so it is coherent though concise.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The response directly addresses the question in a clear, logically connected way, so it is coherent though concise.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"What is Sarah Lee's membership status?\", \"response\": \"Platinum\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) The query asks for Sarah Lee's membership status. 2) The response is a single word: \"Platinum.\" 3) That directly and unambiguously answers the question. 4) Although brief, the answer is logically connected and easy to follow, so it is coherent.</S0>\n<S1>The response directly addresses the question in a clear, logically connected way, so it is coherent though concise.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 246,
+                "prompt_tokens": 1259,
+                "total_tokens": 1505
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "9",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "What did Sarah Lee order on February 5th, 2023?",
+            "ground_truth": "She ordered 1 CozyNights Sleeping Bag."
+        },
+        "datasource_item_id": 8,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1596,
+                        "completion_tokens": 384,
+                        "total_tokens": 1980
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What did Sarah Lee order on February 5th, 2023?\", \"response\": \"She ordered 1 CozyNights Sleeping Bag.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"Directly answers the question by stating the specific item and quantity Sarah Lee ordered on that date. The reply is clear and complete for the query, though it offers no extra order details or context.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "Directly answers the question by stating the specific item and quantity Sarah Lee ordered on that date. The reply is clear and complete for the query, though it offers no extra order details or context.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1274,
+                        "completion_tokens": 314,
+                        "total_tokens": 1588
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What did Sarah Lee order on February 5th, 2023?\", \"response\": \"She ordered 1 CozyNights Sleeping Bag.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) Identify the query asking for a specific order on a specific date. 2) Check the response for relevance and directness. 3) Evaluate logical organization and clarity of the single-sentence answer. 4) Determine whether the response flows and directly addresses the question.</S0>\n<S1>The reply is a clear, direct answer to the question with logically organized information and no extraneous or disjointed content, so it is coherent.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The reply is a clear, direct answer to the question with logically organized information and no extraneous or disjointed content, so it is coherent.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"What did Sarah Lee order on February 5th, 2023?\", \"response\": \"She ordered 1 CozyNights Sleeping Bag.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) Identify the query asking for a specific order on a specific date. 2) Check the response for relevance and directness. 3) Evaluate logical organization and clarity of the single-sentence answer. 4) Determine whether the response flows and directly addresses the question.</S0>\n<S1>The reply is a clear, direct answer to the question with logically organized information and no extraneous or disjointed content, so it is coherent.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 314,
+                "prompt_tokens": 1274,
+                "total_tokens": 1588
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "10",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "How many SummitClimber Backpacks did David Kim buy?",
+            "ground_truth": "He bought 2."
+        },
+        "datasource_item_id": 9,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1588,
+                        "completion_tokens": 318,
+                        "total_tokens": 1906
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"How many SummitClimber Backpacks did David Kim buy?\", \"response\": \"He bought 2.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The response directly answers the question with a specific number, fully satisfying the user's request. It provides the needed information but includes no extra context or insight, so it\u2019s correct and sufficient.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The response directly answers the question with a specific number, fully satisfying the user's request. It provides the needed information but includes no extra context or insight, so it\u2019s correct and sufficient.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 5.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1266,
+                        "completion_tokens": 303,
+                        "total_tokens": 1569
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"How many SummitClimber Backpacks did David Kim buy?\", \"response\": \"He bought 2.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) The query asks for a specific numeric quantity. 2) The response provides a clear numeric answer (\"He bought 2.\"). 3) The answer directly addresses the question with no irrelevant information. 4) Therefore the response is clear, logically organized, and easy to follow.</S0>\n<S1>Direct, unambiguous answer that directly addresses the question \u2014 highly coherent.</S1>\n<S2>5</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "Direct, unambiguous answer that directly addresses the question \u2014 highly coherent.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"How many SummitClimber Backpacks did David Kim buy?\", \"response\": \"He bought 2.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) The query asks for a specific numeric quantity. 2) The response provides a clear numeric answer (\"He bought 2.\"). 3) The answer directly addresses the question with no irrelevant information. 4) Therefore the response is clear, logically organized, and easy to follow.</S0>\n<S1>Direct, unambiguous answer that directly addresses the question \u2014 highly coherent.</S1>\n<S2>5</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 303,
+                "prompt_tokens": 1266,
+                "total_tokens": 1569
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "11",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "What is the total cost of David Kim's order on 3/20/2023?",
+            "ground_truth": "40.0"
+        },
+        "datasource_item_id": 10,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1595,
+                        "completion_tokens": 385,
+                        "total_tokens": 1980
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What is the total cost of David Kim's order on 3/20/2023?\", \"response\": \"40.0\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The response directly answers the user's question by giving the total cost as 40.0. It supplies the essential value but omits currency, formatting, or supporting details, so it's sufficient but minimal.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The response directly answers the user's question by giving the total cost as 40.0. It supplies the essential value but omits currency, formatting, or supporting details, so it's sufficient but minimal.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1273,
+                        "completion_tokens": 404,
+                        "total_tokens": 1677
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What is the total cost of David Kim's order on 3/20/2023?\", \"response\": \"40.0\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) The query asks for a specific numeric total. 2) The response gives a single numeric value \"40.0\", which directly answers the question. 3) The reply is clear, logically connected to the query, and easy to follow, but it is minimal and lacks elaboration. 4) According to the coherence definitions, this matches a coherent, directly responsive answer rather than an exceptionally elaborate one.</S0>\n<S1>Direct numeric answer that clearly and logically addresses the question but is minimal in detail, so it fits the \"Coherent Response\" level.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "Direct numeric answer that clearly and logically addresses the question but is minimal in detail, so it fits the \"Coherent Response\" level.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"What is the total cost of David Kim's order on 3/20/2023?\", \"response\": \"40.0\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) The query asks for a specific numeric total. 2) The response gives a single numeric value \"40.0\", which directly answers the question. 3) The reply is clear, logically connected to the query, and easy to follow, but it is minimal and lacks elaboration. 4) According to the coherence definitions, this matches a coherent, directly responsive answer rather than an exceptionally elaborate one.</S0>\n<S1>Direct numeric answer that clearly and logically addresses the question but is minimal in detail, so it fits the \"Coherent Response\" level.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 404,
+                "prompt_tokens": 1273,
+                "total_tokens": 1677
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "12",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "Are TrekReady Hiking Boots waterproof?",
+            "ground_truth": "Yes, they have a waterproof design to keep your feet dry."
+        },
+        "datasource_item_id": 11,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1591,
+                        "completion_tokens": 258,
+                        "total_tokens": 1849
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"Are TrekReady Hiking Boots waterproof?\", \"response\": \"Yes, they have a waterproof design to keep your feet dry.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The reply directly answers the user's yes/no question and confirms waterproofing. It is clear and relevant but brief, lacking supporting details (materials, membrane, rating or conditions) that would make it more informative.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The reply directly answers the user's yes/no question and confirms waterproofing. It is clear and relevant but brief, lacking supporting details (materials, membrane, rating or conditions) that would make it more informative.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1269,
+                        "completion_tokens": 324,
+                        "total_tokens": 1593
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"Are TrekReady Hiking Boots waterproof?\", \"response\": \"Yes, they have a waterproof design to keep your feet dry.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) The query asks a yes/no factual question about waterproofing. 2) The response gives a direct answer: \"Yes.\" 3) It provides a brief supporting clause explaining why (waterproof design to keep feet dry). 4) The information is logically ordered and easy to follow, though concise.</S0>\n<S1>The response directly and clearly answers the question with a logical supporting phrase; it is coherent and easy to follow but not elaborated enough to be rated as exceptionally sophisticated.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The response directly and clearly answers the question with a logical supporting phrase; it is coherent and easy to follow but not elaborated enough to be rated as exceptionally sophisticated.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"Are TrekReady Hiking Boots waterproof?\", \"response\": \"Yes, they have a waterproof design to keep your feet dry.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) The query asks a yes/no factual question about waterproofing. 2) The response gives a direct answer: \"Yes.\" 3) It provides a brief supporting clause explaining why (waterproof design to keep feet dry). 4) The information is logically ordered and easy to follow, though concise.</S0>\n<S1>The response directly and clearly answers the question with a logical supporting phrase; it is coherent and easy to follow but not elaborated enough to be rated as exceptionally sophisticated.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 324,
+                "prompt_tokens": 1269,
+                "total_tokens": 1593
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "13",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "What are the dimensions of the BaseCamp Folding Table?",
+            "ground_truth": "The tabletop dimensions are 48in x 24in."
+        },
+        "datasource_item_id": 12,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 3.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1594,
+                        "completion_tokens": 258,
+                        "total_tokens": 1852
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What are the dimensions of the BaseCamp Folding Table?\", \"response\": \"The tabletop dimensions are 48in x 24in.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The reply gives the tabletop length and width (48 \u00d7 24 in), directly answering part of the question but likely omitting other expected dimensions like table height or folded/stowed size, so it's incomplete.\",\n  \"score\": 3\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The reply gives the tabletop length and width (48 \u00d7 24 in), directly answering part of the question but likely omitting other expected dimensions like table height or folded/stowed size, so it's incomplete.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1272,
+                        "completion_tokens": 341,
+                        "total_tokens": 1613
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What are the dimensions of the BaseCamp Folding Table?\", \"response\": \"The tabletop dimensions are 48in x 24in.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) The query asks for the dimensions of the BaseCamp Folding Table. 2) The response states \"The tabletop dimensions are 48in x 24in.\" 3) The reply is directly relevant, clearly presented, and easy to follow. 4) It may omit other possible dimensions (height or folded size), but it coherently answers with the tabletop size provided.</S0>\n<S1>The response is clear, logically organized, and directly addresses the question by giving specific tabletop dimensions; it isn't exceptionally detailed, so it fits the \"Coherent Response\" level.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The response is clear, logically organized, and directly addresses the question by giving specific tabletop dimensions; it isn't exceptionally detailed, so it fits the \"Coherent Response\" level.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"What are the dimensions of the BaseCamp Folding Table?\", \"response\": \"The tabletop dimensions are 48in x 24in.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) The query asks for the dimensions of the BaseCamp Folding Table. 2) The response states \"The tabletop dimensions are 48in x 24in.\" 3) The reply is directly relevant, clearly presented, and easy to follow. 4) It may omit other possible dimensions (height or folded size), but it coherently answers with the tabletop size provided.</S0>\n<S1>The response is clear, logically organized, and directly addresses the question by giving specific tabletop dimensions; it isn't exceptionally detailed, so it fits the \"Coherent Response\" level.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 341,
+                "prompt_tokens": 1272,
+                "total_tokens": 1613
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "14",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "How much does the EcoFire Camping Stove weigh?",
+            "ground_truth": "It weighs only 4 lbs."
+        },
+        "datasource_item_id": 13,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1588,
+                        "completion_tokens": 317,
+                        "total_tokens": 1905
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"How much does the EcoFire Camping Stove weigh?\", \"response\": \"It weighs only 4 lbs.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The reply directly answers the question with a clear specific weight of 4 lbs. It is concise and sufficient for the user's query, though it omits metric conversion or additional context.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The reply directly answers the question with a clear specific weight of 4 lbs. It is concise and sufficient for the user's query, though it omits metric conversion or additional context.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 5.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1266,
+                        "completion_tokens": 327,
+                        "total_tokens": 1593
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"How much does the EcoFire Camping Stove weigh?\", \"response\": \"It weighs only 4 lbs.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) Identify the question \u2014 asking for the weight of the EcoFire Camping Stove. 2) Check the response \u2014 \"It weighs only 4 lbs.\" provides a clear numeric answer. 3) Evaluate logical flow \u2014 the single sentence directly and coherently answers the query without irrelevant information. 4) Conclusion \u2014 the response is concise, directly relevant, and easy to follow.</S0>\n<S1>The response directly and clearly answers the question with a single, logically presented fact, making it highly coherent.</S1>\n<S2>5</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The response directly and clearly answers the question with a single, logically presented fact, making it highly coherent.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"How much does the EcoFire Camping Stove weigh?\", \"response\": \"It weighs only 4 lbs.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) Identify the question \u2014 asking for the weight of the EcoFire Camping Stove. 2) Check the response \u2014 \"It weighs only 4 lbs.\" provides a clear numeric answer. 3) Evaluate logical flow \u2014 the single sentence directly and coherently answers the query without irrelevant information. 4) Conclusion \u2014 the response is concise, directly relevant, and easy to follow.</S0>\n<S1>The response directly and clearly answers the question with a single, logically presented fact, making it highly coherent.</S1>\n<S2>5</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 327,
+                "prompt_tokens": 1266,
+                "total_tokens": 1593
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "15",
+        "created_at": 1769512832,
+        "datasource_item": {
+            "query": "Do TrekReady Hiking Boots have ankle support?",
+            "ground_truth": "Yes, they provide ankle support for stability and protection."
+        },
+        "datasource_item_id": 14,
+        "eval_id": "eval_2effdb42dc914224a731a93126e27e3a",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1591,
+                        "completion_tokens": 386,
+                        "total_tokens": 1977
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"Do TrekReady Hiking Boots have ankle support?\", \"response\": \"Yes, they provide ankle support for stability and protection.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The response directly answers the yes/no question and gives a brief reason (stability and protection). It's on-topic and sufficient for a simple query but lacks specific details about the level or type of ankle support.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The response directly answers the yes/no question and gives a brief reason (stability and protection). It's on-topic and sufficient for a simple query but lacks specific details about the level or type of ankle support.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1269,
+                        "completion_tokens": 348,
+                        "total_tokens": 1617
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"Do TrekReady Hiking Boots have ankle support?\", \"response\": \"Yes, they provide ankle support for stability and protection.\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: \n1. Identify the question: asks whether TrekReady boots have ankle support. \n2. Read the response: states \"Yes\" and explains purpose (\"stability and protection\"). \n3. Check coherence: response directly answers the question with a clear, logical connection between claim and brief justification. \n4. Assess level: clear and well-organized but short and not elaborately developed, so fits \"Coherent\" rather than \"Highly coherent.\" </S0>\n<S1>Response directly and clearly answers the question with a concise justification, demonstrating logical organization but limited detail, so it matches the \"Coherent\" level.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "Response directly and clearly answers the question with a concise justification, demonstrating logical organization but limited detail, so it matches the \"Coherent\" level.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_7b4fa172deab4931b50defd7bf809de0",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"Do TrekReady Hiking Boots have ankle support?\", \"response\": \"Yes, they provide ankle support for stability and protection.\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: \n1. Identify the question: asks whether TrekReady boots have ankle support. \n2. Read the response: states \"Yes\" and explains purpose (\"stability and protection\"). \n3. Check coherence: response directly answers the question with a clear, logical connection between claim and brief justification. \n4. Assess level: clear and well-organized but short and not elaborately developed, so fits \"Coherent\" rather than \"Highly coherent.\" </S0>\n<S1>Response directly and clearly answers the question with a concise justification, demonstrating logical organization but limited detail, so it matches the \"Coherent\" level.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 348,
+                "prompt_tokens": 1269,
+                "total_tokens": 1617
+            }
+        },
+        "status": "completed"
+    }
+]

@@ -11,9 +11,9 @@ from openai.types.evals.create_eval_jsonl_run_data_source_param import CreateEva
 
 # --- 1. Environment Setup ---
 # Load environment variables from the attached .env file
-# We look for .azure/mak-fdy-demo/.env relative to the workspace root
+# We look for .azure/mak-foundry-demo/.env relative to the workspace root
 workspace_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-env_path = os.path.join(workspace_root, ".azure", "mak-fdy-demo", ".env")
+env_path = os.path.join(workspace_root, ".azure", "mak-foundry-demo", ".env")
 
 if os.path.exists(env_path):
     print(f"Loading environment from {env_path}")
@@ -46,7 +46,7 @@ with DefaultAzureCredential() as credential, \
     timestamp = datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')
 
     # --- 4. Upload Data ---
-    data_file_name = "evaluate_test_data.jsonl"
+    data_file_name = "ground_truth_dataset.jsonl"
     data_file_path = os.path.join(os.path.dirname(__file__), data_file_name)
 
     if not os.path.exists(data_file_path):
@@ -78,7 +78,7 @@ with DefaultAzureCredential() as credential, \
                 "type": "object",
                 "properties": {
                     "query": {"type": "string"},
-                    "response": {"type": "string"},
+                    "ground_truth": {"type": "string"},
                 },
                 "required": [],
             },
@@ -93,7 +93,7 @@ with DefaultAzureCredential() as credential, \
             "type": "azure_ai_evaluator",
             "name": "relevance",
             "evaluator_name": "builtin.relevance",
-            "data_mapping": {"query": "{{item.query}}", "response": "{{item.response}}"},
+            "data_mapping": {"query": "{{item.query}}", "response": "{{item.ground_truth}}"},
             "initialization_parameters": {"deployment_name": model_deployment_name},
         },
         # Built-in Evaluator: Coherence (Replacing Violence which might not be built-in supported the same way or requires specific safety setup)
@@ -101,7 +101,7 @@ with DefaultAzureCredential() as credential, \
             "type": "azure_ai_evaluator",
             "name": "coherence",
             "evaluator_name": "builtin.coherence",
-            "data_mapping": {"query": "{{item.query}}", "response": "{{item.response}}"},
+            "data_mapping": {"query": "{{item.query}}", "response": "{{item.ground_truth}}"},
             "initialization_parameters": {"deployment_name": model_deployment_name},
         }
     ]

@@ -1,0 +1,314 @@
+[
+    {
+        "id": "1",
+        "created_at": 1769512527,
+        "datasource_item": {
+            "query": "What is the capital of France?",
+            "response": "Paris"
+        },
+        "datasource_item_id": 0,
+        "eval_id": "eval_fdd700da2fe941b1b79d74f9e578c953",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1580,
+                        "completion_tokens": 307,
+                        "total_tokens": 1887
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What is the capital of France?\", \"response\": \"Paris\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The response directly and correctly answers the user's question by naming France's capital. It's concise and fully sufficient for this simple factual query.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The response directly and correctly answers the user's question by naming France's capital. It's concise and fully sufficient for this simple factual query.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 5.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1258,
+                        "completion_tokens": 305,
+                        "total_tokens": 1563
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What is the capital of France?\", \"response\": \"Paris\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: 1) The query asks for the capital of France. 2) The response is a single word: \"Paris.\" 3) That directly and unambiguously answers the question. 4) The answer is logically organized, clear, and fully relevant.</S0>\n<S1>Direct, clear, and fully answers the question with an appropriate, unambiguous response\u2014demonstrating highest coherence.</S1>\n<S2>5</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "Direct, clear, and fully answers the question with an appropriate, unambiguous response\u2014demonstrating highest coherence.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_8649fb80303e4ba68b5492ed656278c5",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"What is the capital of France?\", \"response\": \"Paris\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: 1) The query asks for the capital of France. 2) The response is a single word: \"Paris.\" 3) That directly and unambiguously answers the question. 4) The answer is logically organized, clear, and fully relevant.</S0>\n<S1>Direct, clear, and fully answers the question with an appropriate, unambiguous response\u2014demonstrating highest coherence.</S1>\n<S2>5</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 305,
+                "prompt_tokens": 1258,
+                "total_tokens": 1563
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "2",
+        "created_at": 1769512527,
+        "datasource_item": {
+            "query": "Who wrote Romeo and Juliet?",
+            "response": "William Shakespeare"
+        },
+        "datasource_item_id": 1,
+        "eval_id": "eval_fdd700da2fe941b1b79d74f9e578c953",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1580,
+                        "completion_tokens": 251,
+                        "total_tokens": 1831
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"Who wrote Romeo and Juliet?\", \"response\": \"William Shakespeare\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The response directly and correctly names William Shakespeare as the author, fully answering the user's straightforward question. It is accurate and sufficient, though it provides no extra context or detail.\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The response directly and correctly names William Shakespeare as the author, fully answering the user's straightforward question. It is accurate and sufficient, though it provides no extra context or detail.",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 5.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1258,
+                        "completion_tokens": 516,
+                        "total_tokens": 1774
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"Who wrote Romeo and Juliet?\", \"response\": \"William Shakespeare\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: \n1. Identify the query: asking for the author of Romeo and Juliet. \n2. Read the response: \"William Shakespeare.\" \n3. Check relevance: the response directly answers the question. \n4. Check clarity and logical flow: the single, correct name is clear and unambiguous. \n5. Conclude coherence rating based on definitions.</S0>\n<S1>The response is a direct, correct, and unambiguous answer to the question, presenting the information clearly and logically.</S1>\n<S2>5</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The response is a direct, correct, and unambiguous answer to the question, presenting the information clearly and logically.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_8649fb80303e4ba68b5492ed656278c5",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"Who wrote Romeo and Juliet?\", \"response\": \"William Shakespeare\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: \n1. Identify the query: asking for the author of Romeo and Juliet. \n2. Read the response: \"William Shakespeare.\" \n3. Check relevance: the response directly answers the question. \n4. Check clarity and logical flow: the single, correct name is clear and unambiguous. \n5. Conclude coherence rating based on definitions.</S0>\n<S1>The response is a direct, correct, and unambiguous answer to the question, presenting the information clearly and logically.</S1>\n<S2>5</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 516,
+                "prompt_tokens": 1258,
+                "total_tokens": 1774
+            }
+        },
+        "status": "completed"
+    },
+    {
+        "id": "3",
+        "created_at": 1769512527,
+        "datasource_item": {
+            "query": "What is the boiling point of water?",
+            "response": "100 degrees Celsius"
+        },
+        "datasource_item_id": 2,
+        "eval_id": "eval_fdd700da2fe941b1b79d74f9e578c953",
+        "object": "eval.run.output_item",
+        "results": [
+            {
+                "name": "relevance",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1584,
+                        "completion_tokens": 258,
+                        "total_tokens": 1842
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What is the boiling point of water?\", \"response\": \"100 degrees Celsius\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "{\n  \"explanation\": \"The response directly and correctly answers the question by stating water's boiling point as 100 degrees Celsius. It's accurate and sufficient for typical contexts, though it omits the standard pressure condition (1 atm).\",\n  \"score\": 4\n}"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "relevance",
+                "label": "pass",
+                "reason": "The response directly and correctly answers the question by stating water's boiling point as 100 degrees Celsius. It's accurate and sufficient for typical contexts, though it omits the standard pressure condition (1 atm).",
+                "threshold": 3
+            },
+            {
+                "name": "coherence",
+                "passed": true,
+                "score": 4.0,
+                "sample": {
+                    "usage": {
+                        "prompt_tokens": 1262,
+                        "completion_tokens": 397,
+                        "total_tokens": 1659
+                    },
+                    "finish_reason": "stop",
+                    "model": "gpt-5-mini-2025-08-07",
+                    "input": [
+                        {
+                            "role": "user",
+                            "content": "{\"query\": \"What is the boiling point of water?\", \"response\": \"100 degrees Celsius\"}"
+                        }
+                    ],
+                    "output": [
+                        {
+                            "role": "assistant",
+                            "content": "<S0>Let's think step by step: \n1. Identify the query: asking for the boiling point of water. \n2. Read the response: \"100 degrees Celsius.\" \n3. Check coherence criteria: response directly answers the question, is logically organized, and easy to follow. \n4. Compare to rating definitions: clear and appropriate but not elaborated or exceptionally developed, so matches \"Coherent Response.\"</S0>\n<S1>The answer directly and clearly addresses the question in a single, logical statement; it is coherent but not elaborated enough to merit the highest rating.</S1>\n<S2>4</S2>"
+                        }
+                    ]
+                },
+                "type": "azure_ai_evaluator",
+                "metric": "coherence",
+                "label": "pass",
+                "reason": "The answer directly and clearly addresses the question in a single, logical statement; it is coherent but not elaborated enough to merit the highest rating.",
+                "threshold": 3
+            }
+        ],
+        "run_id": "evalrun_8649fb80303e4ba68b5492ed656278c5",
+        "sample": {
+            "error": null,
+            "finish_reason": "stop",
+            "input": [
+                {
+                    "content": "{\"query\": \"What is the boiling point of water?\", \"response\": \"100 degrees Celsius\"}",
+                    "role": "user"
+                }
+            ],
+            "max_completion_tokens": null,
+            "model": "gpt-5-mini-2025-08-07",
+            "output": [
+                {
+                    "content": "<S0>Let's think step by step: \n1. Identify the query: asking for the boiling point of water. \n2. Read the response: \"100 degrees Celsius.\" \n3. Check coherence criteria: response directly answers the question, is logically organized, and easy to follow. \n4. Compare to rating definitions: clear and appropriate but not elaborated or exceptionally developed, so matches \"Coherent Response.\"</S0>\n<S1>The answer directly and clearly addresses the question in a single, logical statement; it is coherent but not elaborated enough to merit the highest rating.</S1>\n<S2>4</S2>",
+                    "role": "assistant"
+                }
+            ],
+            "seed": null,
+            "temperature": null,
+            "top_p": null,
+            "usage": {
+                "cached_tokens": null,
+                "completion_tokens": 397,
+                "prompt_tokens": 1262,
+                "total_tokens": 1659
+            }
+        },
+        "status": "completed"
+    }
+]
