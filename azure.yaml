@@ -34,8 +34,8 @@ hooks:
 services:
   api_and_frontend:
     project: ./src
-    language: py # for hosted agents: docker
-    host: containerapp # for hosted agents: azure.ai.agent
+    language: py # for hosted agents, change it to: docker
+    host: containerapp # for hosted agents, change it to: azure.ai.agent
     docker:
       image: api_and_frontend
       remoteBuild: true
