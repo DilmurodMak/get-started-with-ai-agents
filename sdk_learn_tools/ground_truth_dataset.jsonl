@@ -1,15 +1,3 @@
 {"query": "What features come with the SmartView Glasses?", "ground_truth": "They include an Augmented Reality interface, Voice-controlled AI assistant, HD video recording with 3D audio, and UV protection."}
 {"query": "How long is the battery life of the Self-Warming Blanket?", "ground_truth": "It has a battery life of up to 12 hours."}
 {"query": "Is the Summit Breeze Jacket water-proof?", "ground_truth": "It is water-resistant, keeping you dry in light rain."}
-{"query": "What is John Smith's email address?", "ground_truth": "johnsmith@example.com"}
-{"query": "What membership level does Jane Doe have?", "ground_truth": "She has a Gold membership."}
-{"query": "What did Michael Johnson buy on 2/28/2023?", "ground_truth": "He bought 2 BaseCamp Folding Tables."}
-{"query": "When did John Smith purchase the Alpine Explorer Tent?", "ground_truth": "On 2/10/2023."}
-{"query": "What is Sarah Lee's membership status?", "ground_truth": "Platinum"}
-{"query": "What did Sarah Lee order on February 5th, 2023?", "ground_truth": "She ordered 1 CozyNights Sleeping Bag."}
-{"query": "How many SummitClimber Backpacks did David Kim buy?", "ground_truth": "He bought 2."}
-{"query": "What is the total cost of David Kim's order on 3/20/2023?", "ground_truth": "40.0"}
-{"query": "Are TrekReady Hiking Boots waterproof?", "ground_truth": "Yes, they have a waterproof design to keep your feet dry."}
-{"query": "What are the dimensions of the BaseCamp Folding Table?", "ground_truth": "The tabletop dimensions are 48in x 24in."}
-{"query": "How much does the EcoFire Camping Stove weigh?", "ground_truth": "It weighs only 4 lbs."}
-{"query": "Do TrekReady Hiking Boots have ankle support?", "ground_truth": "Yes, they provide ankle support for stability and protection."}
